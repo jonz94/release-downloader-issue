@@ -26,7 +26,7 @@ jobs:
 
       - name: Run action
         id: download-public
-        uses: robinraju/release-downloader@v1.5
+        uses: robinraju/release-downloader@62d3e983c99c16718304fb1a69553f01b84b0d40
         with:
           repository: 'ryanoasis/nerd-fonts'
           tag: v2.2.2
